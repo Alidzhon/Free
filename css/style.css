@@ -1,0 +1,453 @@
+@font-face {
+    font-family: 'Gilroy Medium', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url('../Font/Giliroy/Gilroy-Medium.woff') format('woff');  
+}
+
+@font-face {
+    font-family: 'Gilroy Bold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url('../Font/Giliroy/Gilroy-Bold.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+/*denis*/
+.denis {
+    min-height: 768px;
+    background-color: #fff;
+    padding-top: 32px;
+    padding-bottom: 104px;
+}
+.denis__list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 31px;
+}
+.denis__link {
+    font-family: 'Gilroy Bold', sans-serif;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+.denis__link_bold {
+    font-family: 'Gilroy Bold', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 22px;
+    color: #070707;
+}
+.denis__link:hover {
+    text-decoration: underline;
+}
+.denis__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 39px;
+}
+.denis__title {
+    font-family:'Gilroy Bold', sans-serif;
+    font-size: 47.3392px;
+    font-weight: bold;
+    line-height: 59px;
+    color: #070707;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.denis__about {
+    font-family: 'Gilroy Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #070707;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.denis__language {
+    transform: rotate(-90deg);
+    font-family: 'Gilroy Bold', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #828282;
+}
+.denis__language  span {
+    color: #000000;
+}
+.denis__men {
+    display: block;
+    margin-top: 30px;
+}
+
+/*about*/
+.about {
+    min-height: 506px;
+    background-color: #F6F6F6;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+.main__title {
+    font-family: 'Gilroy Bold', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.about__text {
+    font-family: 'Gilroy Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+/*skills*/
+.skills {
+    min-height: 610px;
+    background-color: #fff;
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+.sills__subtitle {
+    font-family: 'Gilroy Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 0;
+    margin-top: 68px;
+}
+.skills__block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 83px;
+}
+.skills__img {
+    display: block;
+    margin: 0 auto;
+}
+.skills__name {
+    display: block;
+    font-family: 'Gilroy Bold', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 24px;
+}
+.siklls__stars {
+    text-align: center;
+    margin-top: 40px;
+}
+.skills__star {
+    margin-left: 9px;
+}
+
+.skills__star:first-child {
+    margin-left: 0;
+}
+/* portfolio */
+.portfolio {
+    padding-top: 112px;
+    padding-bottom: 96px;
+    background-color:  #F6F6F6;
+}
+.portfolio__woman {
+    display: block;
+    margin-top: 47px;
+}
+.portfolio__link {
+    display: block;
+    margin-top: 44px;
+    font-family: 'Gilroy Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+.portfolio__reebok {
+    display: block;
+    margin-top: 99px;
+}
+.portfolio__braun {
+    display: block;
+    margin-top: 99px;
+}
+
+/* footer */
+.footer {
+    padding-top: 114px;
+    padding-bottom: 123px;
+    background-color: #FFFFFF;
+}
+.footer__subtitle {
+    font-family: 'Gilroy Medium', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.footer__btn {
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    font-family: 'Gilroy Bold', sans-serif;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+.footer__block {
+    text-align: center;
+    margin-top: 85px;
+}
+.footer__social {
+    margin-left: 61px;
+}
+.footer__social:first-child {
+    margin-left: 0;
+}
+.footer__text {
+    font-family: 'Gilroy Medium', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 45px;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+/* adaptive */
+@media screen and (max-width: 991px) {
+    .container {
+        padding-left: 26px;
+        padding-right: 30px;
+    }
+    .denis__men {
+        width: 100%;
+    }
+    .portfolio__woman {
+        width: 100%;
+    }
+    .portfolio__reebok {
+        width: 100%;
+    }
+    .portfolio__braun {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .denis__language {
+        display: none;
+    }
+    .denis__list {
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding-top: 66px;
+        padding-left: 26px;
+        background-color: #FFFFFF;
+        transition: 0.6s all;
+    }
+    .denis__list_active {
+        left: 0;
+    }
+    .denis__item {
+        margin-bottom: 36px;
+    }
+    .denis__link {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .denis__link:hover {
+        text-decoration: none;
+    }
+    .denis__block {
+        margin-top: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .denis__about {
+        margin-top: 23px;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 55px;
+        width: 33px;
+        height: 20px;
+    }
+    .hamburger > span {
+        display: block;
+        height: 5px;
+        width: 100%;
+        background-color: #000000;
+        margin-bottom: 3px;
+        transition: 0.5s all;
+    }
+    .hamburger__active > span:nth-child(1) {
+        transform: rotate(-45deg);
+    }
+    .hamburger__active > span:nth-child(2) {
+        display: none;
+    }
+    .hamburger__active > span:nth-child(3) {
+        transform: rotate(45deg);
+    }
+    .hamburger__active > span {
+        margin-bottom: -3px;
+    }
+    .denis__men {
+        margin-top: 36px;
+    }
+    .denis {
+        min-height: 400px;
+        padding-bottom: 83px;
+     }
+
+    .about {
+        min-height: 441px;
+        padding-top: 80px;
+    }
+    .skills {
+        padding-top: 83px;
+    }
+    .sills__subtitle {
+        margin-top: 50px;
+    }
+    .skills__block {
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .skills__item {
+        flex-basis: 100%;
+        margin-top: 81px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .about {
+        padding-bottom: 70px;
+    }
+    .about__text {
+        margin-top: 29px;
+    }
+    .portfolio {
+        padding-top: 81px;
+        padding-bottom: 80px;
+    }
+    .portfolio__woman {
+        margin-top: 64px;
+    }
+    .portfolio__link {
+        margin-top: 33px;
+    }
+    .portfolio__reebok {
+        margin-top: 77px;
+    }
+    .portfolio__braun {
+        margin-top: 77px;
+    }
+    .footer {
+        padding-top: 82px;
+        padding-bottom: 90px;
+    }
+    .footer__subtitle {
+        margin-top: 27px;
+    }
+    .footer__btn {
+        margin-top: 39px;
+        width: 316px;
+        height: 42px;
+    }
+    .footer__block {
+        margin-top: 48px;
+    }
+    .footer__social {
+        margin-left: 46px;
+    }
+    .footer__text {
+        margin-top: 48px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer__social {
+        margin-left: 4px;
+    }
+    .footer__btn {
+        margin-top: 39px;
+        width: 233px;
+        height: 42px;
+    }
+    .denis__link {
+        font-size: 20px;
+    }
+    .denis__item:last-child {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 361px) {
+    .footer__social {
+        margin-left: 4px;
+    }
+    .footer__btn {
+        margin-top: 39px;
+        width: 233px;
+        height: 42px;
+    }
+    .denis__link {
+        font-size: 20px;
+    }
+    .denis__item:last-child {
+        margin-bottom: 0;
+    }
+}
